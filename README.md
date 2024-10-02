@@ -26,7 +26,7 @@ To get started with the project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/12-24-hour-clock.git
+    git clone https://github.com/AJ4G4L4N/12-24-hour-clock.git
     ```
 
 2. **Navigate into the project directory**:
