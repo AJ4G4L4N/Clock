@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decription" content="This webpage comprises of a clock made using HTML,JS,CSS">
+    <title>Clock</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Clock</h1>
+    <div class="container">
+        <div class="time">
+            <span id="hr"></span>
+            <span id="diff"></span>
+            <span id="min"></span>
+            <div class="sec">
+                <span id="seconds"></span>
+                <span id="am-pm"></span>
+            </div>
+        </div>
+        <div class="dates">
+            <div class="days">
+                <span id="day"></span>
+            </div>
+            <span id="date"></span>
+            <span id="month"></span>
+            <span id="year"></span>
+        </div>
+        <div class="btn">
+            <button id="btn" onclick="HandleOnClick()">Change to 24 hr format</button>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
